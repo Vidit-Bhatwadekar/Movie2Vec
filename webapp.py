@@ -39,7 +39,7 @@ You can use these vectors to add and subtract movies from each other to help you
 have never seen.
 ''')
 
-df = pd.read_csv("./data/final_csv.csv", lineterminator="\n", index_col=0)
+df = pd.read_csv("./data/github_csv.csv", lineterminator="\n", index_col=0)
 model = pickle.load(open('newest_model.pkl', 'rb'))
 df["vec"] = [v for v in model.dv.vectors]
 
