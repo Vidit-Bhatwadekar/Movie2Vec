@@ -5,7 +5,7 @@ import string
 import numpy as np
 
 st.set_page_config(
-    page_title="Movie2Vec 🚀",
+    page_title="Movie2Vec - Movie Recommendation engine",
     page_icon= "🎥"
 )
 
