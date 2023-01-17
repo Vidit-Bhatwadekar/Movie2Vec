@@ -4,6 +4,11 @@ import pandas as pd
 import string
 import numpy as np
 
+st.set_page_config(
+    page_title="Movie2Vec 🚀",
+    page_icon= "🎥"
+)
+
 st.markdown('''<style> 
 ul {
     padding-left: 1.5rem;
