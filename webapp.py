@@ -38,7 +38,7 @@ st.title("Movie2Vec Webapp", anchor=None)
 
 st.write('''
 We built this webapp as a part of our final deliverable for a Data Mining and Machine Learning course. 
-Using a dataset of 6000 movie descriptions, we built a Movie2Vec model which embeds each movie as a 100 dimensional vector.
+Using a dataset of 10000 movie descriptions, we built a Movie2Vec model which embeds each movie as a 100 dimensional vector.
 Using this model, we created an app that suggests movies based on a description or some key words that you input
 You can use these vectors to add and subtract movies from each other to help you find new and interesting movies that you may
 have never seen.
