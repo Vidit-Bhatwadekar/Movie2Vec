@@ -34,7 +34,7 @@ header {
 </style>
 ''', unsafe_allow_html=True)
 
-st.title("Movie2Vec Webapp", anchor=None)
+st.title("Movie2Vec Webapp - bro", anchor=None)
 
 st.write('''
 We built this webapp as a part of our final deliverable for a Data Mining and Machine Learning course. 
